@@ -13,7 +13,7 @@ function Vue (options) {
   }
   this._init(options)
 }
-
+// 注册 vm的 init方法 初始化vm
 initMixin(Vue)
 stateMixin(Vue)
 eventsMixin(Vue)
